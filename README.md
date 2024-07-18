@@ -26,6 +26,11 @@ Note:
 
 2.You may frequently encounter a 429 Too Many Requests response for all the APIs due to rate limiting. To avoid this issue, please run each method separately by commenting out the other steps in the feature file while running.
 
+Continuous Integration via Github Actions
+------------------------------------------
+
+Github actions has been incorporated in this framework and test will trigger whenever push the code
+
 Report
 ------
 We can see the cucumber io report by default after execution in the console
