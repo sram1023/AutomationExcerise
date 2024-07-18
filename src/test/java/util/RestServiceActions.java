@@ -7,8 +7,8 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
-import org.testng.Assert;
 import com.pojo.*;
+import org.junit.Assert;
 
 import static io.restassured.RestAssured.*;
 
@@ -102,7 +102,9 @@ public class RestServiceActions {
 
     private Put setPutBody() {
         Put put = new Put();
+        put.setName("David");
         put.setSalary("60000");
+        put.setAge("26");
         return put;
     }
 

@@ -1,11 +1,10 @@
-package stepdefinitions;
+package com.stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import util.RestServiceActions;
 
 public class RestApi extends RestServiceActions {
-
 
     @Given("^the rest api for (.+) is ready$")
     public void restApi(String action) {
