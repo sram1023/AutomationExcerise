@@ -1,8 +1,8 @@
-name: CI
+name: API Test
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build:
