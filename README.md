@@ -1,10 +1,8 @@
-This framework has been developed with Cucumber BDD format and API steps are covered on POST, GET,
-PUT, DELETE services. Used TestNG assertions to validate responses.
+This framework has been developed using the Cucumber BDD format, with API steps covering POST, GET, PUT, and DELETE services. TestNG assertions are used to validate responses.
 
-To Run the feature file
-------------------------
+How to Run the Feature File:
 
-Click the play button on restapi.feature file
-
-NOTE: User will get response as 429 Too many requests frequently for all the APIs due to inconsistency.So, Kindly run each method separately by commenting other steps in feature file while running 
-
+1.Open the restapi.feature file.
+2.Click the play button to execute the tests.
+    
+Note: You may frequently encounter a 429 Too Many Requests response for all the APIs due to rate limiting. To avoid this issue, please run each method separately by commenting out the other steps in the feature file while running.
